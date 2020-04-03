@@ -11,7 +11,7 @@
 	<h1>Hello!</h1>
 
 	<p>
-	<p>This is a <font color="red">Red Circle</font>.
+	<p>This is a <font color="red">RED Circle</font>.
 	<p>
 	<p>
 	<svg width="150" height="150" xmlns="http://www.w3.org/2000/svg">
