@@ -3,42 +3,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Main page</title>
+<title>CCP6418</title>
 </head>
-<body BGCOLOR="FFFFFF">
-	<h1>Welcome</h1>
-
-	<p>Hello World!
-	<p>This is a sample jsp page.
-	<p>
-		Current time is
-		<%=LocalDateTime.now()%>.
-	<p>
-	<p>
-		Please contact us at <a href="mailto:sefremidis@athtech.gr">sefremidis@athtech.gr</a>.
-	
-	<p>
-	<p>
-		For more news please check <a href="https://edition.cnn.com">CNN
-			News</a>.
-	<p>
-	<p>
-	<center>
-		<img src="flowers.jpg">
+<body bgcolor="FEF9E7">
+    <p>
+    <center>
+		<img src="logo.jpg">
 	</center>
 	<p>
 	<p>
-	<h1>Available Geometric Shapes</h1>
+	
+	<font face="verdana" color="green">
+	<h1>Welcome to CCP6418!</h1>
+	<p>
+	<p>
+	<p>Today's topics: Geometric Shapes
 	<ol>
         <li><a href="Circle.jsp">Circle</a></li>
-        <li><a href="RightTriangle.jsp">Right Trianlge</a></li>
+        <li><a href="Ellipse.jsp">Ellipse</a></li>
+        <li><a href="RightTriangle.jsp">Right Triangle</a></li>
         <li><a href="RightRectangle.jsp">Right Rectangle</a></li>
-        <li><a href="Trapeziod.jsp">Trapezoid</a></li>
+        <li><a href="IsoscelesTrapezoid.jsp">Isosceles Trapezoid</a></li>
         <li><a href="EquilateralTriangle.jsp">Equilateral Triangle</a></li>
         <li><a href="Square.jsp">Square<a></li>
         <li><a href="Pentagon.jsp">Pentagon</a></li>
         <li><a href="Hexagon.jsp">Hexagon</a></li>
     </ol>
+    <p>
+	<p>
+	<p>
+	<center>
+		<p>(c) AthTech, 2020, all rights reserved.
+		<p>email: <a href="mailto:sefremidis@athtech.gr">sefremidis@athtech.gr</a>
+		<p>URL: <a href="https://athtech.gr">www.athtech.gr</a>
+		<p>Current time: <%=LocalDateTime.now()%>
+	</center>
+	</font>
 </body>
 </html>
 
