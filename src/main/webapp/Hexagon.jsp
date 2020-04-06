@@ -11,12 +11,12 @@
 	<h1>Hello!</h1>
 
 	<p>
-	<p>This is a <font color="red">Red Hexagon</font>.
+	<p>This is a <font color="blue">Blue Hexagon</font>.
 	<p>
 	<p>
 	<svg height="200" width="200" xmlns="http://www.w3.org/2000/svg">
 		<polygon points="0,87 50,173 150,173 200,87 150,0 50,0"
-			style="fill:red;stroke:black;stroke-width:1" />
+			style="fill:blue;stroke:black;stroke-width:1" />
 	</svg>
 </font>
 </body>
